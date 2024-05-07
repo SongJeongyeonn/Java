@@ -10,6 +10,6 @@ public class _02_DataTypes {
         System.out.println(true);//불리언
         System.out.println(false);
 
-        System.out.println(13%4);//사칙연산과 나누기 연산자가 된다.
+        System.out.println(13%4);// 산술 연산자가 된다.
     }
 }
