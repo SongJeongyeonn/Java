@@ -1,0 +1,6 @@
+java.io.FileNotFoundException: out.txt (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at org.opentutorials.javatutorials.io.Scanner3Demo.main(Scanner3Demo.java:11)
