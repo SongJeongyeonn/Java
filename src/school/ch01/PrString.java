@@ -20,6 +20,6 @@ public class PrString {
 
         System.out.printf("%b\n", s1 == s3);
         System.out.println(s4 + "하세요"); // 문자열 출력이다.
-        System.out.printf("%b\n", s3 == s4 + "안녕하세요");
+        System.out.printf("%b\n", s3 == s4 + "하세요");
     }
 }

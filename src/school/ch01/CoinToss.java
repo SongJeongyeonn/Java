@@ -7,7 +7,7 @@ public class CoinToss {
     public static void main(String[] args) {
         System.out.printf("당첨: %b\n", toss());
     }
-    public static double toss() {
-        return Math.random() % 2;
+    public static boolean toss() {
+        return Math.random() >= 0.5;
     }
 }

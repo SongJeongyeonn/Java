@@ -1,4 +1,4 @@
-package school.ch01;
+package school.exam1;
 
 import java.util.Random;
 
