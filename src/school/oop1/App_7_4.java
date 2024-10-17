@@ -13,8 +13,8 @@ public class App_7_4 {
         c.merchandise = "초콜릿맛 붕어빵";
         c.orderMode = "포장";
 
-        System.out.println(fb.introduce()); // 같은 이름의 메소드지만 각 클래스에 따라 다른 실행 결과를 보여준다.
-        System.out.println(m.introduce());
+        System.out.println(fb.introduce()); // 같은 이름의 메소드지만 각 클래스에 따라 다른 실행 결과를 보여준다.(다형성)
+        System.out.println(m.introduce()); // 객체의 종류에따라 다른 결과가 나타나도록 하는 프로그래밍 기술이다.
         System.out.println(c.introduce());
     }
 }

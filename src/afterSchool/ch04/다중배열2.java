@@ -10,7 +10,7 @@ public class 다중배열2 {
         System.out.print("열의 갯수를 입력하고 [Enter] 치세요 = ");
         int n2 = in.nextInt();
 
-        // in.nextLine(); 문자열 배열을 nextLine으로 입력받을 시 버퍼에 남은 개행문자 비우기
+        // in.nextLine(); //문자열 배열을 nextLine으로 입력받을 시 버퍼에 남은 개행문자 비우기
         char[][] num = new char[n1][n2];
         String[] str = new String[n1];
 
