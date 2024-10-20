@@ -1,7 +1,5 @@
 package sec.sec07;
 
-import java.awt.image.CropImageFilter;
-
 class Circle{
     double radius;
     static int numOfCircles = 0;

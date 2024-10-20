@@ -15,3 +15,9 @@ public class String1Demo {
         System.out.println("s1 == s3 -> " + (s1 == s3));
     }
 }
+/*
+s1 == s2 -> true
+s1 == s3 -> false
+s3 == s4 -> false
+s1 == s3 -> true
+ */
