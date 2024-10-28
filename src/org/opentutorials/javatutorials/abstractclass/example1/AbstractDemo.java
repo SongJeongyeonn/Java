@@ -9,15 +9,8 @@ abstract class A{ // 추상 클래스 A
         System.out.println("world");
     }
 }
-class B extends A{
-    public int b(){ // A 클래스에서 b 메서드가 추상 메서드로, 오버라이딩을 해야 사용할 수 있다.
-        return 1;
-    }
-
-}
 public class AbstractDemo {
     public static void main(String[] args) {
         //A obj = new A();  abstract 클래스로 인스턴스화 할 수 없다.
-        B obj = new B();
     }
 }
