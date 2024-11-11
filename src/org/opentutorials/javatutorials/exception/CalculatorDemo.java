@@ -8,10 +8,13 @@ class Calculator{
     public void divide(){
         try {
             System.out.print("계산결과는 ");
-            System.out.print(this.left/this.right);
+            System.out.print(this.left/this.right); // 이 코드에서 오류가 발생 시 실행을 멈추고 catch로 이동한다.
             System.out.print(" 입니다.");
         } catch(Exception e){
-            System.out.println("오류가 발생했습니다 : "+e.getMessage());
+            System.out.println("\n\ne.getMessage()\n"+e.getMessage());
+            System.out.println("\n\ne.toString()\n"+e.toString());
+            System.out.println("\n\ne.printStackTrace()");
+            e.printStackTrace();
         }
     }
 }
