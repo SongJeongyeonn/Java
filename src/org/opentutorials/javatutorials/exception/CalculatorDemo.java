@@ -6,9 +6,12 @@ class Calculator{
         this.right = right;
     }
     public void divide(){
+        if(this.right == 0){
+            throw new ArithmeticException("0으로 나누는 것은 허용되지 않습니다.");
+        }
         try {
             System.out.print("계산결과는 ");
-            System.out.print(this.left/this.right); // 이 코드에서 오류가 발생 시 실행을 멈추고 catch로 이동한다.
+            System.out.print(this.left/this.right);
             System.out.print(" 입니다.");
         } catch(Exception e){
             System.out.println("\n\ne.getMessage()\n"+e.getMessage());
@@ -23,9 +26,5 @@ public class CalculatorDemo {
         Calculator c1 = new Calculator();
         c1.setOprands(10, 0);
         c1.divide();
-
-        Calculator c2 = new Calculator();
-        c2.setOprands(10, 5);
-        c2.divide();
     }
 }
