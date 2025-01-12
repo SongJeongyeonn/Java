@@ -14,6 +14,10 @@ class Calculator{
     public void avg(){
         System.out.println((this.left+this.right)/2);
     }
+
+    public String toString(){
+        return "left : " + this.left + ", right : "+ this.right;
+    }
 }
 
 public class CalculatorDemo {
@@ -23,6 +27,7 @@ public class CalculatorDemo {
         Calculator c1 = new Calculator();
         c1.setOprands(10, 20);
         System.out.println(c1);
+        System.out.println(c1.toString());
     }
 
 }
