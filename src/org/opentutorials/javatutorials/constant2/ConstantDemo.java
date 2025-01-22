@@ -1,24 +1,29 @@
 package org.opentutorials.javatutorials.constant2;
 
-interface FRUIT{
-    int APPLE=1, PEACH=2, BANANA=3;
+enum Fruit{
+    APPLE, PEACH, BANANA;
 }
-interface COMPANY{
-    int GOOGLE=1, APPLE=2, ORACLE=3;
+enum Company{
+    GOOGLE, APPLE, ORACLE;
 }
 
 public class ConstantDemo {
 
     public static void main(String[] args) {
-        int type = FRUIT.APPLE;
+        /*
+        if(Fruit.APPLE == Company.APPLE){
+            System.out.println("과일 애플과 회사 애플이 같다.");
+        }
+        */
+        Fruit type = Fruit.APPLE;
         switch(type){
-            case FRUIT.APPLE:
+            case APPLE:
                 System.out.println(57+" kcal");
                 break;
-            case FRUIT.PEACH:
+            case PEACH:
                 System.out.println(34+" kcal");
                 break;
-            case FRUIT.BANANA:
+            case BANANA:
                 System.out.println(93+" kcal");
                 break;
         }
