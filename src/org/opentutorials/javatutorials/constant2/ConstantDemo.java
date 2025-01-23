@@ -2,7 +2,11 @@ package org.opentutorials.javatutorials.constant2;
 
 enum Fruit{
     APPLE, PEACH, BANANA;
+    Fruit(){
+        System.out.println("Call Constructor "+this);
+    }
 }
+
 enum Company{
     GOOGLE, APPLE, ORACLE;
 }
@@ -10,6 +14,7 @@ enum Company{
 public class ConstantDemo {
 
     public static void main(String[] args) {
+
         /*
         if(Fruit.APPLE == Company.APPLE){
             System.out.println("과일 애플과 회사 애플이 같다.");
